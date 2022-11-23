@@ -5,7 +5,7 @@ class CreateSpices < ActiveRecord::Migration[6.1]
       t.string :image
       t.string :description
       t.string :notes
-      t.float :rating
+      t.decimal :rating
 
       t.timestamps
     end
